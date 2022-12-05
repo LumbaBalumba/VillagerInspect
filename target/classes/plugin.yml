@@ -1,0 +1,11 @@
+name: VillagerInspect
+version: '1.0-SNAPSHOT'
+main: org.lumbabalumba.villagerinspect.VillagerInspect
+api-version: 1.19
+authors: [ LumbaBalumba ]
+description: A simple plugin that shows how many villagers are there near the player
+commands:
+  villagerinspect:
+    description: a command that shows how many villagers are there near the player
+    usage: /villagerinspect
+    permission: villagerinspect.inspector
